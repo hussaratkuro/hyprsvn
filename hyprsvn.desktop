@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=hyprsvn
+Comment=Subversion working copy tool (GUI)
+Exec=__HOME__/.local/bin/hyprsvn
+TryExec=__HOME__/.local/bin/hyprsvn
+Icon=__HOME__/.local/share/icons/hyprsvn/hyprsvn.png
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true
+StartupWMClass=hyprsvn

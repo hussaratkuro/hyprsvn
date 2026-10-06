@@ -1,0 +1,19 @@
+# Files and paths that never show up in the commit list, and directories the
+# file history search skips. Nothing is hidden without this file.
+
+# Names hide every matching path component, at any depth.
+name=.svn
+name=.git
+name=node_modules
+name=vendor
+
+# Paths hide one working-copy-relative path. Name a directory to hide it and
+# everything under it.
+path=Workspace/Web/project/modul/_html.php
+path=Workspace/Web/project/generated
+
+# Bare lines work too: a line with "/" is a path, anything else is a name.
+build/generated/version.php
+
+# windows path: C:\Users\<user>\.config\svn-tui\ignore.txt
+# linux path: $HOME/.config/svn-tui/ignore.txt
